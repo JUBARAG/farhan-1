@@ -139,3 +139,39 @@ last item
   color: wheat;
   
 }
+/*------------------------------------------
+ medea quarues  
+ ---------------------------------------------*/
+
+ /*-----------------------------------------
+  mobile divices  
+  ------------------------------------------*/
+  @media only screen and (max-width:688px) {
+    .start-now{
+      flex-direction: column;
+    }
+    .logo-app{
+      flex-direction: column;
+      align-items: center;
+    }
+  .all-albam{
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+.one-place{
+  flex-direction: column;
+}
+    
+  }
+
+  /*------------------------
+   tablet devises  
+   -------------------------*/
+   @media only screen and (min-width:688px) and (max-width:992px) {
+     .start-now{
+     align-items: center;
+     }
+     .logo-app{
+      
+     }
+   }
