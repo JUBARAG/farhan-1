@@ -1,0 +1,141 @@
+/*-------------------
+ common style 
+ --------------------*/
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Poppins:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
+ /*---------------------
+  body stylw  
+  ---------------------*/
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/*----------------------
+ start now 
+ -----------------------*/
+.start-now{
+  display: flex;
+}
+.start-to{
+  width: 50%;
+  margin-left: 30px;
+}
+.start-to a{
+  text-decoration: none;
+}
+.preebook{
+  color: black;
+  background-color: rgb(139, 46, 46);
+  padding: 5px;
+  border-radius: 10px;
+
+}
+.start-to img{
+  width: 80%;
+}
+h1{
+  font-size: 40px;
+}
+#nanu{
+  text-decoration: none;
+}
+/*------------------------
+ logo appp 
+ -------------------------*/
+ .logo-app{
+   display: flex;
+   padding: 25px;
+   justify-content: center;
+   justify-content: space-evenly;
+   flex-grow:1;
+   align-items: center;
+   margin-left: x;
+   margin-right: 50px;
+   border: 2px;
+ }
+ .logo img{
+   width: 70px;
+ }
+/*-----------------------------------
+ popular collection 
+ ------------------------------------*/
+.popular{
+  text-align: center;
+  justify-content: center;
+  color: rgb(137, 139, 46);
+
+}
+.all-albam{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  grid-row-gap: 30px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  border: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 12px;
+}
+.one-folder img{
+  width: 70%;
+}
+h2{
+  font-size: 25px;
+}
+h4{
+  font-size: 20px;
+}
+.fa-star.fild{
+  color: yellow;
+  font-size: 10px;
+}
+.popular-text{
+  color: cadetblue;
+}
+.buy{
+  font-size: 21px;
+  text-decoration: none;
+  color: rgb(0, 128, 90);
+  background-color: rgb(255, 102, 0);
+  padding: 10px;
+  border-radius: 7px;
+}
+/*----------------------------
+ see more 
+ ------------------------------*/
+ .see-more{
+   text-align: end;
+   color: rgb(0, 128, 96);
+   font-size: 20px;
+ }
+ /*----------------------------------
+  one place featured 
+  ------------------------------------*/
+.one-place{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 93px;
+}
+.featured img{
+width: 90%;
+height: 100%;
+}
+.featured text{
+  width: 50%;
+  height: 50%;
+  margin-right: 30px;
+}
+.featured a{
+  text-decoration: none;
+}
+/*------------------------------ 
+last item  
+--------------------------------*/
+.last{
+  background-color: rgb(83, 71, 255);
+}
+.last-item{
+  text-align: center;
+  color: wheat;
+  
+}
