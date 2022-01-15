@@ -169,9 +169,26 @@ last item
    -------------------------*/
    @media only screen and (min-width:688px) and (max-width:992px) {
      .start-now{
-     align-items: center;
+      flex-direction: column;
+      align-items: center;
      }
-     .logo-app{
-      
+     .logo-app .one-place{
+      justify-content: center;
+      flex-direction: column;
+     }
+     .all-albam{
+       grid-template-columns: repeat(2 , 1fr);
+     }
+     .one-place{
+      flex-direction: column;
+      align-items: center;
      }
    }
+   /*--------------------------------------
+    .dextop devises  
+    --------------------------------------*/
+    @media only screen and (min-width:992px) and (max-width:1312px) {
+      .start-now{
+      
+      }
+    }
